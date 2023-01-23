@@ -2,7 +2,6 @@ export const Features = (props) => {
   return (
     <div id='features' className='text-center'>
       <div className='container'>
-        <div className='col-md-10 col-md-offset-1 section-title'></div>
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
@@ -14,7 +13,6 @@ export const Features = (props) => {
               ))
             : 'Загрузка...'}
         </div>
-        <div className='col-md-10 col-md-offset-1 section-title'></div>
       </div>
     </div>
   )

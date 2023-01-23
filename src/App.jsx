@@ -7,6 +7,7 @@ import { Features } from './components/features'
 import { About } from './components/about'
 import { Services } from './components/services'
 import { Testimonials } from './components/testimonials'
+import { TechSupport } from './components/techsupport'
 import { Map } from './components/map'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
@@ -32,7 +33,8 @@ const App = () => {
       <Services data={landingPageData.Services} />
       <About data={landingPageData.About} />
       <Testimonials data={landingPageData.Testimonials} />
-      <Map />
+      <TechSupport data={landingPageData.TechSupport} />
+      <Map data={landingPageData.Map} />
       <Contact data={landingPageData.Contact} />
     </div>
   )
