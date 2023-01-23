@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/evacuator/static/css/main.ae42ac5f.css",
-    "main.js": "/evacuator/static/js/main.8302f978.js",
+    "main.js": "/evacuator/static/js/main.70497aad.js",
     "index.html": "/evacuator/index.html",
     "main.ae42ac5f.css.map": "/evacuator/static/css/main.ae42ac5f.css.map",
-    "main.8302f978.js.map": "/evacuator/static/js/main.8302f978.js.map"
+    "main.70497aad.js.map": "/evacuator/static/js/main.70497aad.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
-    "static/js/main.8302f978.js"
+    "static/js/main.70497aad.js"
   ]
 }
