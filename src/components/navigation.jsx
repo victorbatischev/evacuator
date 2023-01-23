@@ -1,4 +1,4 @@
-export const Navigation = (props) => {
+export const Navigation = () => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -9,7 +9,7 @@ export const Navigation = (props) => {
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
           >
-            <span className='sr-only'>Toggle navigation</span>
+            <span className='sr-only'>Переключить</span>
             <span className='icon-bar'></span>
             <span className='icon-bar'></span>
             <span className='icon-bar'></span>
