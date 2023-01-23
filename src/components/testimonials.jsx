@@ -3,7 +3,7 @@ export const Testimonials = (props) => {
     <div id='testimonials'>
       <div className='container'>
         <div className='section-title text-center'>
-          <h2>What our clients say</h2>
+          <h2>Отзывы клиентов</h2>
         </div>
         <div className='row'>
           {props.data
@@ -11,8 +11,7 @@ export const Testimonials = (props) => {
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   <div className='testimonial'>
                     <div className='testimonial-image'>
-                      {' '}
-                      <img src={d.img} alt='' />{' '}
+                      <img src={d.img} alt='' />
                     </div>
                     <div className='testimonial-content'>
                       <p>"{d.text}"</p>
@@ -21,7 +20,7 @@ export const Testimonials = (props) => {
                   </div>
                 </div>
               ))
-            : 'loading'}
+            : 'Загрузка...'}
         </div>
       </div>
     </div>

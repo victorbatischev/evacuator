@@ -100,7 +100,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                {props.data ? props.data.address : 'Загрузка...'}
               </p>
             </div>
             <div className='contact-item'>
@@ -108,7 +108,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {props.data ? props.data.phone : 'Загрузка...'}
               </p>
             </div>
             <div className='contact-item'>
@@ -116,7 +116,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {props.data ? props.data.email : 'Загрузка...'}
               </p>
             </div>
           </div>

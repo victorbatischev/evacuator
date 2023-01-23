@@ -23,7 +23,7 @@ export const Team = (props) => {
                   </div>
                 </div>
               ))
-            : 'loading'}
+            : 'Загрузка...'}
         </div>
       </div>
     </div>

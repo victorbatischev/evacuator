@@ -50,18 +50,12 @@
     }
   ],
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
+    "paragraph": "Эвакуация Автомобиля - единый комплекс услуг, включающий в себя следующие виды эвакуации:",
+    "Why": ["1)      Полная погрузка;", "2)   Частичная погрузка:"],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "С ломанной платформой. Погрузка автотранспорта производится при помощи выдвижной аппарели",
+      "С гидравлической платформой. Эвакуатор оснащен гидравлической системой, за счет чего обеспечивается движение и наклон погрузочной платформы",
+      "Эвакуатор-манипулятор. Эвакуатор оснащен гидравлическим краном, который служит для подъема автотранспорта на погрузочную платформу."
     ]
   },
   "Gallery": [
