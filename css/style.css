@@ -58,8 +58,6 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
 }
 hr {
   height: 2px;
@@ -247,6 +245,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding: 100px 0;
 }
 #features i.fa {
   font-size: 38px;
@@ -346,8 +345,12 @@ header .intro-text {
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
+  max-width: 80%;
 }
 #services .service-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 40px;
 }
 /* Portfolio Section */
@@ -392,6 +395,7 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -438,6 +442,73 @@ header .intro-text {
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+/* TechSupport Section */
+#techsupport {
+  padding: 100px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+}
+#techsupport .service-desc {
+  margin: 10px 10px 20px;
+}
+#techsupport h2 {
+  color: #fff;
+}
+#techsupport .section-title h2::after {
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+#techsupport i.fa {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#techsupport h3 {
+  font-weight: 500;
+  padding: 5px 0;
+  color: #fff;
+}
+#techsupport p {
+  color: rgba(255, 255, 255, 0.75);
+}
+#techsupport .service-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+/* Map Section */
+#map {
+  padding: 100px 0;
+}
+#map li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#map li:before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  color: #5ca9fb;
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 8px;
 }
 /* Team Section */
 #team {
