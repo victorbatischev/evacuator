@@ -1,7 +1,7 @@
 {
   "name": "evacuator-russia",
   "homepage": "https://victorbatischev.github.io/evacuator/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "leaflet": "^1.9.3",
