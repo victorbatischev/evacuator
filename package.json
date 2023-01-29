@@ -1,6 +1,6 @@
 {
   "name": "evacuator-russia",
-  "homepage": "https://victorbatischev.github.io/evacuator/",
+  "homepage": "https://evacuator.vercel.app/",
   "private": false,
   "dependencies": {
     "emailjs-com": "^3.2.0",
