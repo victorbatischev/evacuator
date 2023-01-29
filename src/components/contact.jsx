@@ -1,6 +1,6 @@
 export const Contact = (props) => {
   return (
-    <div>
+    <>
       <div id='contact'>
         <div className='container'>
           <div className='col-md-6'>
@@ -13,7 +13,7 @@ export const Contact = (props) => {
             <div className='row'>
               {props.data
                 ? props.data.map((d, i) => (
-                    <div key={`${d.title}-${i}`} className='col-xs-6 col-md-4'>
+                    <div key={`${d.title}-${i}`} className='col-md-4'>
                       <h5>{d.title}</h5>
                     </div>
                   ))
@@ -23,7 +23,7 @@ export const Contact = (props) => {
               <div className='col-xs-12 col-md-12'>
                 <a className='phone' href='tel:+7(936)619-98-04'>
                   <i className='fa fa-phone'></i>
-                  +7(936)619-98-04
+                  +7 (936) 619-98-04
                 </a>
               </div>
             </div>
@@ -52,6 +52,16 @@ export const Contact = (props) => {
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
+                  <li>
+                    <a href={props.data ? props.data.telegram : '/'}>
+                      <i className='fa fa-paper-plane'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : '/'}>
+                      <i className='fa fa-whatsapp'></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -60,9 +70,9 @@ export const Contact = (props) => {
       </div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>&copy; {new Date().getFullYear()} Все права защищены</p>
+          <p>Copyright &copy; {new Date().getFullYear()} Все права защищены</p>
         </div>
       </div>
-    </div>
+    </>
   )
 }

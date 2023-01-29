@@ -1,45 +1,45 @@
 {
   "Header": {
     "title": "Эвакуаторы в России",
-    "paragraph": "Подача эвакуатора в любую точку Юга России."
+    "paragraph": "Подача эвакуатора в любую точку Юга России"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "img": "img/features/01.png",
       "title": "1. Позвоните по указанному номеру"
     },
     {
-      "icon": "fa fa-bullhorn",
+      "img": "img/features/02.png",
       "title": "2. Укажите ваше местоположение"
     },
     {
-      "icon": "fa fa-group",
+      "img": "img/features/03.png",
       "title": "3. Ваш эвакуатор в пути!"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "img": "img/services/01.png",
       "name": "Цены",
       "text": "Цены на услуги минимальные и одни из самых дешевых на рынке."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "img": "img/services/02.png",
       "name": "Оперативность",
       "text": "Быстро подадим эвакуатор и окажем техническую помощь."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "img": "img/services/03.png",
       "name": "24/7",
       "text": "Мы работаем круглосуточно без выходных."
     },
     {
-      "icon": "fa fa-language",
+      "img": "img/services/04.png",
       "name": "Высокий уровень сервиса",
       "text": "Наши водители и мастера аккуратно выполнят всю работу."
     },
     {
-      "icon": "fa fa-plane",
+      "img": "img/services/05.png",
       "name": "Удобный способ оплаты",
       "text": "Оплатить наши услуги вы можете удобным для вас способом, предварительно согласовав с нами."
     }
@@ -48,30 +48,30 @@
     "paragraph": "Эвакуация Автомобиля - единый комплекс услуг, включающий в себя следующие виды эвакуации:",
     "Why": ["1)      Полная погрузка;", "2)   Частичная погрузка:"],
     "Why2": [
-      "Погрузка с ломанной платформой. Погрузка автотранспорта производится при помощи выдвижной аппарели",
-      "Погрузка с гидравлической платформой. Эвакуатор оснащен гидравлической системой, за счет чего обеспечивается движение и наклон погрузочной платформы",
+      "Погрузка с ломанной платформой. Погрузка автотранспорта производится при помощи выдвижной аппарели.",
+      "Погрузка с гидравлической платформой. Эвакуатор оснащен гидравлической системой, за счет чего обеспечивается движение и наклон погрузочной платформы.",
       "Эвакуатор-манипулятор. Эвакуатор оснащен гидравлическим краном, который служит для подъема автотранспорта на погрузочную платформу."
     ]
   },
   "TechSupport": [
     {
-      "icon": "fa fa-wordpress",
+      "img": "img/techsupport/01.png",
       "name": "Зарядка АКБ"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "img": "img/techsupport/02.png",
       "name": "Подвоз топлива"
     },
     {
-      "icon": "fa fa-cloud-download",
+      "img": "img/techsupport/03.png",
       "name": "Замена колеса"
     },
     {
-      "icon": "fa fa-language",
+      "img": "img/techsupport/04.png",
       "name": "Выездной шиномонтаж"
     },
     {
-      "icon": "fa fa-plane",
+      "img": "img/techsupport/05.png",
       "name": "Трезвый водитель"
     }
   ],
@@ -103,83 +103,36 @@
     "Усть-Лабинск",
     "Хадыженск"
   ],
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Удивлен! Все в порядке, доставили быстро и вовремя.",
+      "name": "Максим"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Спасибо. Быстро забрали и доставили на СТО. С удовольствием буду пользоваться вашими услугами и всем друзьям посоветую",
+      "name": "Евгений"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Большое спасибо, очень доволен. Заказ выполнили вовремя и быстро, очень вежливый и аккуратный водитель.",
+      "name": "Олег"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Всё отлично! Приехали вовремя. Доехали без проблем. Спасибо!!!",
+      "name": "Анна"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Отличная работа! Эвакуаторщик грамотно все сделал и главное быстро. Спасибо большое!",
+      "name": "Виктор"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Очень понравилась работа вашей службы. Водитель приехал во время. Отвез быстро. Спасибо!",
+      "name": "Марина"
     }
   ],
   "Contact": [

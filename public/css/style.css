@@ -15,6 +15,11 @@ h2 {
   font-size: 36px;
   color: #333;
 }
+@media (max-width: 600px) {
+  h2 {
+    font-size: 30px;
+  }
+}
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -78,6 +83,12 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  #menu a.navbar-brand {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }
 #menu.navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
@@ -156,7 +167,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #ff0000;
-  padding: 14px 34px;
+  padding: 15px 35px;
   letter-spacing: 1px;
   margin: 0;
   font-size: 20px;
@@ -164,6 +175,11 @@ hr {
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
+}
+@media (max-width: 600px) {
+  .btn-custom {
+    padding: 15px;
+  }
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -214,6 +230,11 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 38px;
+  }
+}
 .intro h1 span {
   font-weight: 800;
   color: #ff0000;
@@ -225,6 +246,11 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+@media (max-width: 600px) {
+  .intro p {
+    font-size: 18px;
+  }
 }
 header .intro-text {
   padding-top: 350px;
@@ -273,6 +299,7 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  font-size: 16px;
 }
 #about .about-text li:before {
   content: '\f00c';
@@ -292,6 +319,7 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 20px 0 5px 0;
+  font-size: 16px;
 }
 /* Services Section */
 #services {
@@ -412,6 +440,7 @@ header .intro-text {
   margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
+  padding-left: 2px;
 }
 .testimonial-meta {
   margin-top: 10px;
@@ -448,9 +477,6 @@ header .intro-text {
 #techsupport h3 {
   font-weight: 500;
   padding: 5px 0;
-}
-#techsupport p {
-  color: rgba(255, 255, 255, 0.75);
 }
 #techsupport .service-desc {
   display: flex;
@@ -550,41 +576,6 @@ label {
   font-weight: 400;
   float: left;
 }
-#contact .form-control {
-  display: block;
-  width: 100%;
-  padding: 6px 12px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #444;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-#contact .form-control:focus {
-  border-color: #999;
-  outline: 0;
-  -webkit-box-shadow: transparent;
-  box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-  color: #777;
-}
-.form-control:-moz-placeholder {
-  color: #777;
-}
-.form-control::-moz-placeholder {
-  color: #777;
-}
-.form-control:-ms-input-placeholder {
-  color: #777;
-}
 #contact .contact-item {
   margin: 20px 0;
 }
@@ -629,6 +620,11 @@ label {
   padding-top: 25px;
   font-weight: 600;
 }
+@media (max-width: 600px) {
+  #contact .phone {
+    font-size: 24px;
+  }
+}
 #contact .phone:hover {
   transition: all 0.1s ease-out;
   -webkit-transform: scale(1.1);
@@ -638,7 +634,7 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 30px 0;
+  padding: 20px 0 10px 0;
 }
 #footer p {
   color: #888;
@@ -650,7 +646,6 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #ff0000;
 }
-
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;

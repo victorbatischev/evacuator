@@ -12,7 +12,7 @@ export const TechSupport = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
-                  <i className={d.icon}></i>
+                  <img src={d.img} alt='' />
                   <div className='service-desc'>
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>

@@ -10,9 +10,8 @@ import { Testimonials } from './components/testimonials'
 import { TechSupport } from './components/techsupport'
 import { Map } from './components/map'
 import { Contact } from './components/contact'
-import JsonData from './data/data.json'
 
-import './App.css'
+import JsonData from './data/data.json'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
