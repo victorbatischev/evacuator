@@ -20,8 +20,9 @@ export const Contact = (props) => {
                 : 'Загрузка...'}
             </div>
             <div className='row'>
-              <div className='col-xs-6 col-md-12'>
+              <div className='col-xs-12 col-md-12'>
                 <a className='phone' href='tel:+7(936)619-98-04'>
+                  <i className='fa fa-phone'></i>
                   +7(936)619-98-04
                 </a>
               </div>
