@@ -21,9 +21,9 @@ export const Contact = (props) => {
             </div>
             <div className='row'>
               <div className='col-xs-12 col-md-12'>
-                <a className='phone' href='tel:+7(936)619-98-04'>
+                <a className='phone' href='tel:+7(949)524-40-14'>
                   <i className='fa fa-phone'></i>
-                  +7 (936) 619-98-04
+                  +7 (949) 524-40-14
                 </a>
               </div>
             </div>
@@ -37,7 +37,7 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='social'>
                 <ul>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
                     </a>
@@ -51,14 +51,14 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href={props.data ? props.data.telegram : '/'}>
+                    <a href={'https://t.me/evaksouth'}>
                       <i className='fa fa-paper-plane'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.whatsapp : '/'}>
+                    <a href={'https://wa.me/79495244014'}>
                       <i className='fa fa-whatsapp'></i>
                     </a>
                   </li>

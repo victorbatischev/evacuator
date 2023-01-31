@@ -598,9 +598,9 @@ label {
   margin: 0 20px;
 }
 #contact .social i.fa {
-  font-size: 22px;
-  width: 48px;
-  height: 48px;
+  font-size: 32px;
+  width: 64px;
+  height: 64px;
   padding: 12px 0;
   border: 2px solid #fff;
   color: #ff0000;
@@ -610,6 +610,9 @@ label {
 #contact .social i.fa:hover {
   color: #ff0000;
   background: #fff;
+  transition: all 0.1s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 #contact .phone {
   font-size: 32px;
