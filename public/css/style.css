@@ -589,8 +589,6 @@ label {
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
   text-align: center;
 }
 #contact .social ul li {
@@ -598,7 +596,7 @@ label {
   margin: 0 20px;
 }
 #contact .social i.fa {
-  font-size: 32px;
+  font-size: 36px;
   width: 64px;
   height: 64px;
   padding: 12px 0;
@@ -606,6 +604,9 @@ label {
   color: #ff0000;
   border-radius: 50%;
   transition: all 0.3s;
+}
+#contact .social i.fa-whatsapp {
+  font-size: 44px;
 }
 #contact .social i.fa:hover {
   color: #ff0000;
@@ -619,6 +620,14 @@ label {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  display: flex;
+  padding-top: 25px;
+  font-weight: 600;
+}
+#contact .write-us {
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
   display: flex;
   padding-top: 25px;
   font-weight: 600;

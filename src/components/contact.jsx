@@ -35,6 +35,9 @@ export const Contact = (props) => {
           </div>
           <div className='col-md-12'>
             <div className='row'>
+              <div className='write-us'>Написать нам:</div>
+            </div>
+            <div className='row'>
               <div className='social'>
                 <ul>
                   {/* <li>
