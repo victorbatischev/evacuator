@@ -19,6 +19,14 @@ export const Header = (props) => {
                 </a>
               </div>
             </div>
+            <div className='row'>
+              <div className='col-xs-12 col-md-12'>
+                <a className='phone' href='tel:+7(977)099-85-05'>
+                  <i className='fa fa-phone'></i>
+                  +7 (977) 099-85-05
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

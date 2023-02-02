@@ -21,9 +21,9 @@ export const Contact = (props) => {
             </div>
             <div className='row'>
               <div className='col-xs-12 col-md-12'>
-                <a className='phone' href='tel:+7(949)524-40-14'>
+                <a className='phone' href='tel:+7(977)099-85-05'>
                   <i className='fa fa-phone'></i>
-                  +7 (949) 524-40-14
+                  +7 (977) 099-85-05
                 </a>
               </div>
             </div>
@@ -61,7 +61,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={'https://wa.me/79495244014'}>
+                    <a href={'https://wa.me/79770998505'}>
                       <i className='fa fa-whatsapp'></i>
                     </a>
                   </li>

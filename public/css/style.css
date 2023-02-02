@@ -254,7 +254,28 @@ a:focus,
 }
 header .intro-text {
   padding-top: 350px;
+}
+header .phone {
+  font-size: 32px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  padding-top: 25px;
+  font-weight: 600;
   padding-bottom: 200px;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  header .phone {
+    font-size: 24px;
+    justify-content: center;
+  }
+}
+#contact .phone:hover {
+  transition: all 0.1s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
 }
 /* Features Section */
 #features {
@@ -615,19 +636,19 @@ label {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+#contact .write-us {
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 25px;
+  font-weight: 600;
+}
 #contact .phone {
   font-size: 32px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  display: flex;
-  padding-top: 25px;
-  font-weight: 600;
-}
-#contact .write-us {
-  font-size: 32px;
-  justify-content: center;
-  align-items: center;
   display: flex;
   padding-top: 25px;
   font-weight: 600;
