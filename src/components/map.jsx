@@ -4,22 +4,22 @@ export const Map = (props) => (
   <div id='map'>
     <div className='container'>
       <div className='section-title text-center'>
-        <h2>Работаем по югу России</h2>
+        <h2>Работаем по России</h2>
       </div>
       <div className='row'>
         <div className='col-md-4'>
           {props.data
-            ? props.data.slice(0, 9).map((d, i) => <li key={i}>{d}</li>)
+            ? props.data.slice(0, 4).map((d, i) => <li key={i}>{d}</li>)
             : 'Загрузка...'}
         </div>
         <div className='col-md-4'>
           {props.data
-            ? props.data.slice(9, 18).map((d, i) => <li key={i}>{d}</li>)
+            ? props.data.slice(4, 8).map((d, i) => <li key={i}>{d}</li>)
             : 'Загрузка...'}
         </div>
         <div className='col-md-4'>
           {props.data
-            ? props.data.slice(18, 27).map((d, i) => <li key={i}>{d}</li>)
+            ? props.data.slice(8, 14).map((d, i) => <li key={i}>{d}</li>)
             : 'Загрузка...'}
         </div>
       </div>
@@ -27,7 +27,7 @@ export const Map = (props) => (
         <YMaps>
           <YandexMap
             style={{ paddingTop: 50, height: 500, width: '100%' }}
-            defaultState={{ center: [44.994983, 39.805518], zoom: 7 }}
+            defaultState={{ center: [53.2522, 45.6156], zoom: 5 }}
           ></YandexMap>
         </YMaps>
       </div>

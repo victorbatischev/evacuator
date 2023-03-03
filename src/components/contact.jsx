@@ -68,6 +68,12 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
+            <div className='row links'>
+              <a href='tel:+7(977)099-85-05'>+7 (977) 099-85-05</a>
+              <a href='mailto:evakuatory.yuga@gmail.com'>
+                evakuatory.yuga@gmail.com
+              </a>
+            </div>
           </div>
         </div>
       </div>
